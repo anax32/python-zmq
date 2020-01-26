@@ -19,3 +19,5 @@ RUN apk update && \
 
 RUN pip3 install --no-cache-dir \
        pyzmq
+
+# FIXME make this a multistage build and copy the package over?
